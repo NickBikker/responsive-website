@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Archivo', sans-serif;
+}
+
+
+#menubutton{
+    font-size: 70px;
+    z-index: 1;
+}
+
+#topbar{
+    background-color: gold;
+    height: 10rem;
+    width: 100%
+}
+
+.info{
+    padding-top: 1rem;
+    width: 100%;
+    position: absolute;
+}
+
+#drop-menu {
+    border: 1px solid transparent;
+    text-align: center;
+    margin: 2rem;
+    background-color: gold;
+    color: white;
+    height: 5rem;
+    width: 5rem;
+}
+
+.contact-fixed {
+    display: none;
+
+}
+.contact-fixed a{
+    display: inline-block;
+    width: 100%;
+    margin: 1rem;
+    z-index: 10;
+    font-size: 2rem;
+
+}
+.info:hover .contact-fixed {
+    display: block;
+
+}
+
+#drop-menu2 {
+    border: 1px solid white;
+    text-align: center;
+    margin: 2rem;
+    background-color: white;
+    color: black;
+    height: 5rem;
+    width: 5rem;
+
+}
+
+#dropdown1{
+    background-color: gold;
+    width: 100%;
+}
+
+#dropdown2{
+    background-color: white;
+    width: 100%;
+}
+
+#logo{
+    float: right;
+    margin: 1rem;
+    height: 120px;
+    width: 450px;
+
+}
+
+#banner{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+h1{
+    float: left;
+    margin-left: 7rem;
+    font-size: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+hr{
+    width: 75%;
+    margin: 6rem;
+}
+
+p{
+    margin: 4rem;
+}
+
+#proefles-button{
+    background-color: yellow;
+    width: 75%;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    height: 6rem;
+    font-size: 4rem;
+}
+
+iframe{
+    height: 40rem;
+    width: 80%;
+    margin: 6rem;
+}
+
+@media (min-device-width: 900px){
+    #topbar {
+    height: 3rem;
+}
+   #menubutton{
+       display: none;
+   }
+   #drop-menu{
+       display: none;
+   }
+   #drop-menu2{
+       display: none;
+   }
+   #contact-fixed{
+       display: inline-block;
+   }
+   .info div ul li{
+       display: inline-block;
+   }
+   a{
+       display: inline-block;
+   }
+   #textbox1{
+       display: inline-block;
+
+   }
+    #textbox2{
+        display: inline-block;
+        margin-bottom: 3rem;
+
+    }
+    #textbox3{
+        display: inline-block;
+        margin-bottom: 3rem;
+
+    }
+   h1{
+       margin: 2rem;
+       font-size: 3rem;
+   }
+    #proefles-button{
+        font-size: 1rem;
+        width: 70%;
+        height: 3rem;
+        margin: 1.5rem 1.5rem 1.5rem 4rem;
+    }
+    #wrapper{
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+    }
+    hr{
+        margin: 2rem;
+    }
+    #logo {
+        float: left;
+        margin: 1rem 1rem 1rem 5rem;
+        height: 100px;
+        width: 400px;
+
+    }
+    p{
+        font-size:1.5rem;
+    }
+}
