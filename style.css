@@ -5,14 +5,23 @@
 }
 
 
+li{
+    padding: 1rem;
+    font-size: 1rem;
+}
 #menubutton{
-    font-size: 70px;
-    z-index: 1;
+    font-size: 30px;
+
+}
+
+#menubutton2 {
+    font-size: 30px;
+
 }
 
 #topbar{
     background-color: gold;
-    height: 10rem;
+    height: 5rem;
     width: 100%
 }
 
@@ -20,16 +29,19 @@
     padding-top: 1rem;
     width: 100%;
     position: absolute;
+    height: 2rem;
 }
 
 #drop-menu {
     border: 1px solid transparent;
     text-align: center;
-    margin: 2rem;
     background-color: gold;
+    margin-left: 2rem;
+    margin-top: 1rem;
     color: white;
-    height: 5rem;
-    width: 5rem;
+    height: 2rem;
+    width: 2rem;
+    z-index: 5;
 }
 
 .contact-fixed {
@@ -44,19 +56,24 @@
     font-size: 2rem;
 
 }
-.info:hover .contact-fixed {
+/*.info:hover .contact-fixed {
     display: block;
+}*/
 
+
+.show{
+    display: block;
 }
 
 #drop-menu2 {
     border: 1px solid white;
     text-align: center;
-    margin: 2rem;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
     background-color: white;
     color: black;
-    height: 5rem;
-    width: 5rem;
+    height: 2rem;
+    width: 2rem;
 
 }
 
@@ -68,13 +85,15 @@
 #dropdown2{
     background-color: white;
     width: 100%;
+    margin-top: 2rem;
+
 }
 
 #logo{
     float: right;
-    margin: 1rem;
-    height: 120px;
-    width: 450px;
+    margin: 0.3rem;
+    height: 50px;
+    width: 250px;
 
 }
 
@@ -106,20 +125,23 @@ p{
     margin-left: 6rem;
     margin-top: 2rem;
     height: 6rem;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 iframe{
     height: 40rem;
     width: 80%;
-    margin: 6rem;
+    margin: 6rem 6rem 6rem 10rem;
 }
 
-@media (min-device-width: 900px){
+@media screen and (min-width: 66em){
     #topbar {
     height: 3rem;
 }
    #menubutton{
+       display: none;
+   }
+   #menubutton2{
        display: none;
    }
    #drop-menu{
@@ -128,11 +150,12 @@ iframe{
    #drop-menu2{
        display: none;
    }
-   #contact-fixed{
-       display: inline-block;
+   .contact-fixed{
+       display: block;
    }
    .info div ul li{
        display: inline-block;
+       margin-left: 1rem;
    }
    a{
        display: inline-block;
@@ -164,6 +187,7 @@ iframe{
     #wrapper{
         display: grid;
         grid-template-columns: 30% 30% 30%;
+        margin-left: 10rem;
     }
     hr{
         margin: 2rem;
@@ -177,5 +201,16 @@ iframe{
     }
     p{
         font-size:1.5rem;
+    }
+    ul{
+        float: right;
+        margin-right: 10rem;
+    }
+    #desktop-style{
+        margin-top: 1rem;
+    }
+    li{
+        padding: .1rem;
+        font-size: 1rem;
     }
 }
