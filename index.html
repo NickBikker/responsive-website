@@ -10,13 +10,13 @@
 </head>
 <body>
 <div id="topbar">
-    <div class='info'>
+    <div class='info' id="top">
         <button id='drop-menu' onclick='drop1()'><i id='menubutton' class="fas fa-bars"></i></button>
         <div class="contact-fixed" id="dropdown1">
             <ul>
-            <li><i class="fas fa-phone"></i>(06) -&#45;&#45; -&#45;&#45; &#45;&#45;</li>
-            <li><i class="fab fa-whatsapp"></i>(06) -&#45;&#45; -&#45;&#45; &#45;&#45;</li>
-            <li><i class="fas fa-tachometer-alt"></i> Dashboard</li>
+                <li><i class="fas fa-phone"></i>(06) -&#45;&#45; -&#45;&#45; &#45;&#45;</li>
+                <li><i class="fab fa-whatsapp"></i>(06) -&#45;&#45; -&#45;&#45; &#45;&#45;</li>
+                <li><i class="fas fa-tachometer-alt"></i> Dashboard</li>
                 <li><i class="fab fa-facebook"></i> <i class="fab fa-instagram"></i> <i class="fab fa-twitter"></i></li>
             </ul>
         </div>
@@ -25,7 +25,7 @@
 <img src="img/logo.png" id="logo">
 <div id="navbar">
     <div class='info'>
-        <button id='drop-menu2'><i id='menubutton2' class="fas fa-bars"></i></button>
+        <button id='drop-menu2' onclick='drop2()'> <i id='menubutton2' class="fas fa-bars"></i></button>
         <div class="contact-fixed" id="dropdown2">
             <ul id="desktop-style">
                 <li href="#">AUTORIJBEWIJS <i class="fas fa-angle-down"></i></li>
@@ -70,8 +70,11 @@
             Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
             In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam </p>
     </div>
+    <div class='video-container'>
+        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/-LIhqaqeXUU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 </div>
-<iframe class='de-video' src="https://www.youtube.com/embed/-LIhqaqeXUU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <script src="script.js"></script>
 </body>
 </html>
