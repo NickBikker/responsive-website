@@ -4,6 +4,12 @@
     font-family: 'Archivo', sans-serif;
 }
 
+footer{
+    color: black;
+    background-color: gold;
+    text-align: center;
+    height: 25px;
+}
 
 li{
     padding: 1rem;
@@ -121,7 +127,7 @@ li{
 
 h1{
     float: left;
-    margin-left: 7rem;
+    margin-left: 4rem;
     font-size: 3rem;
     margin-top: 4rem;
     margin-bottom: 2rem;
@@ -131,7 +137,7 @@ h1{
 
 hr{
     width: 75%;
-    margin: 6rem;
+    margin: 4rem;
 }
 
 p{
@@ -141,10 +147,10 @@ p{
 #proefles-button{
     background-color: yellow;
     width: 75%;
-    margin-left: 6rem;
+    margin-left: 4rem;
     margin-top: 2rem;
-    height: 6rem;
-    font-size: 3rem;
+    height: 4rem;
+    font-size: 2rem;
 }
 
 /*iframe{
